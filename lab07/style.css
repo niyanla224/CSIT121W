@@ -4,6 +4,9 @@ caption {
 .one{
     background-color:rgb(202, 204, 208);
 }
+table, tr, td {
+    border: 1px solid #ccc;
+}
 .content-table {
     border-collapse: collapse;
     margin: 25px 0;
