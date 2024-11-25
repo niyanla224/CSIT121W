@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #3a2424;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Lost In The Sea</h2>
+  <p>Scroll down to see the Sea.</p>
+</div>
+
+<div id="navbar">
+    <a href="index.html">Home</a> 
+    <a href="Image1.html">Image 1</a>
+    <a href="Image2.html">Image 2</a>
+    <a href="Image3.html">Image 3</a>
+</div>
+
+<div class="content">
+  <h3>Image 3</h3>
+  <h3>JPG: Joint Photographic Experts Group</h3>
+  <img src="images/sea2.jpg" alt=""width="500" height="333" >
+    <p id="sea"><b>This second image I chose is a JPG file. It stands for Joint Photographic Experts Group. I've learned that JPG files are easily opened with most operating systems. I chose this image because it reminds me of when I went to visit the Mediterranean Sea. I saw nothing but water!</b></p>
+    <button type="button" onclick="document.getElementById('sea').style.fontSize='35px'">Click here to enlarge text!</button>
+    <p><a href="https://www.flickr.com/photos/moxups/1241323886">Click here to view!</a></p>
+   <p>I've integrated the code from my original lab</p>
+   <p>to make this sticky Navigation.</p>
+   <p>My content actually wasn't enough to implement</p>
+   <p>or the sticky bar navigation as I would like,</p>
+   <p>so, I am adding this paragraph to my page to show how it works.</p>
+   <p>I hope you like it!</p>
+</div>
+<footer>
+    &copy;<i>Created by Nasya Coates, October 2024</i>
+</footer>
+</body>
+</html>

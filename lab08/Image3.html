@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #4ebe1a;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #7a2020;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ee0909;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ad8c8c;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4e6b60;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Beautiful Hibiscus</h2>
+  <p>Scroll down to see this beautiful flower.</p>
+</div>
+
+<div id="navbar">
+    <a href="index.html">Home</a> 
+    <a href="Image1.html">Image 1</a>
+    <a href="Image2.html">Image 2</a>
+    <a href="Image3.html">Image 3</a>
+</div>
+
+<div class="content">
+  <h3>Image 3</h3>
+  <h3>PNG: Portable Network Graphics</h3>
+  <img src="images/flower.png" alt=""width="500" height="333">
+  <p><b>This last image is a PNG file. It stands for Portable Network Graphics.It's usually used in graphics. I just loved the look of this photo, which is why I chose it!</b></p>
+ <p id="flower"><a href="https://commons.wikimedia.org/wiki/File:A_day_at_the_beach.webp">Click here to view Hibiscus flower!</a></p>
+ <button type="button" onclick="document.getElementById('flower').style.fontSize='35px'">Click Me!</button>
+ <p>I've integrated the code from my original lab</p>
+ <p>to make this sticky Navigation.</p>
+ <p>My content actually wasn't enough to implement</p>
+ <p>or the sticky bar navigation as I would like,</p>
+ <p>so, I am adding this paragraph to my page to show how it works.</p>
+ <p>I hope you like it!</p>
+</div>
+<footer>
+    &copy;<i>Created by Nasya Coates, October 2024</i>
+</footer>
+</body>
+</html>
